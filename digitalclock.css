@@ -1,0 +1,62 @@
+body
+{
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url(./Nature-1.jpg);
+    background-size: cover;
+}
+h1
+{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 40px;
+    text-align: center;
+    color: crimson;
+    background-image: linear-gradient(green,yellow,hotpink);
+    box-shadow: 10px 10px 5px blue;
+
+}
+.clock
+{
+    display: flex;
+}
+.clock div
+{
+    margin: 5px;
+}
+.clock span
+{
+    width: 100px;
+    height: 80px;
+    background-color: slateblue;
+    opacity: 0.8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.clock .text
+{
+    height: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: darkblue;
+    opacity: 0.8;
+
+}
+.clock #ampm{
+    bottom: 260px;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-image: linear-gradient(yellow,hotpink);
+}
